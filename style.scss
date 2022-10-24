@@ -1,0 +1,83 @@
+$hfont: "Aboreto", cursive;
+$pfont: "Nanum Gothic", sans-serif;
+$rgba1: rgba(12, 16, 89, 1);
+$rgba2: rgba(168, 191, 153, 0.4);
+$rgba3: rgba(223, 242, 196, 1);
+$rgba4: rgba(216, 210, 203, 1);
+$rgba5: rgba(191, 157, 128, 1);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+.bg-body {
+	background-color: $rgba4;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: $hfont;
+}
+p {
+	font-family: $pfont;
+}
+#header i {
+	font-size: 10px;
+	transform: translate(0px, -1px);
+}
+.raised-text {
+	border-radius: 38px;
+	background: linear-gradient(145deg, #e8e2da, #c3beb8);
+	box-shadow: 25px 25px 51px #b8b3ad, -25px -25px 51px #faf3eb;
+}
+.img-fade {
+	border: 2px solid $rgba5;
+	border-radius: 5px;
+	animation: fadeInAnimation ease 7s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+#section-2 {
+	color: $rgba1;
+	background-color: $rgba2;
+}
+
+#shop-btn {
+	color: whitesmoke;
+	font-family: $hfont;
+	background-color: $rgba1;
+	transition: 0.75s;
+}
+#shop-btn:hover {
+	border-top-left-radius: 25px;
+}
+.icon-group a {
+	padding: 10px;
+	font-size: 25px;
+	color: $rgba1;
+	display: inline-block;
+}
+.icon-group i {
+	transition: 0.75s;
+}
+.icon-group i:hover {
+	transform: translate(0px, -15px);
+}
+.carousel-item img {
+	border: 1.5px solid $rgba5;
+	border-radius: 5px;
+	animation: fadeInAnimation ease 4s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
