@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(216, 210, 203) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Aboreto", cursive;
+}
+
+p {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+#header i {
+  font-size: 10px;
+  transform: translate(0px, -1px);
+}
+
+.raised-text {
+  border-radius: 38px;
+  background: linear-gradient(145deg, #e8e2da, #c3beb8);
+  box-shadow: 25px 25px 51px #b8b3ad, -25px -25px 51px #faf3eb;
+}
+
+.img-fade {
+  border: 2px solid rgb(191, 157, 128);
+  border-radius: 5px;
+  -webkit-animation: fadeInAnimation ease 7s;
+          animation: fadeInAnimation ease 7s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#section-2 {
+  color: rgb(12, 16, 89);
+  background-color: rgba(168, 191, 153, 0.4);
+}
+
+#shop-btn {
+  color: whitesmoke;
+  font-family: "Aboreto", cursive;
+  background-color: rgb(12, 16, 89);
+  transition: 0.75s;
+}
+
+#shop-btn:hover {
+  border-top-left-radius: 25px;
+}
+
+.icon-group a {
+  padding: 10px;
+  font-size: 25px;
+  color: rgb(12, 16, 89);
+  display: inline-block;
+}
+
+.icon-group i {
+  transition: 0.75s;
+}
+
+.icon-group i:hover {
+  transform: translate(0px, -15px);
+}
+
+.carousel-item img {
+  border: 1.5px solid rgb(191, 157, 128);
+  border-radius: 5px;
+  -webkit-animation: fadeInAnimation ease 4s;
+          animation: fadeInAnimation ease 4s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}/*# sourceMappingURL=style.css.map */

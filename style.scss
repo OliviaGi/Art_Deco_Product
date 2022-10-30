@@ -10,8 +10,8 @@ $rgba5: rgba(191, 157, 128, 1);
 	margin: 0;
 	padding: 0;
 }
-.bg-body {
-	background-color: $rgba4;
+body {
+	background-color: $rgba4 !important;
 }
 h1,
 h2,
